@@ -1,0 +1,99 @@
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.conteneur1 {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.champsconnect {
+    padding-left: 10em;
+    padding-top: 5em;
+    text-align: left;
+}
+
+.conteneurnav {
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00AFB9;
+}
+
+.padd {
+    margin-bottom: 3em;
+}
+
+.navconnect {
+    padding-top: 0.3em;
+}
+
+.buthead {
+    background-color: #F07167;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 12em;
+    height: 2em;
+}
+
+.buthead:hover {
+    background: #0081A7
+}
+
+.footer {
+    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    background-color: #00AFB9;
+}
+
+.ulh {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00AFB9;
+}
+
+.lih {
+    float: left;
+}
+
+.lih,
+.ah {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.lih,
+.ah:hover {
+    background-color: #0081A7;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.af {
+    color: white;
+    text-align: left;
+    padding: 0.5em 0em;
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 0.2em;
+}
